@@ -1,0 +1,124 @@
+---
+format:
+  pdf:
+    pdf-engine: xelatex
+    documentclass: article
+    mainfont: "Times New Roman"
+    sansfont: "Times New Roman"
+    monofont: "Times New Roman"
+    geometry: "margin=0.5in"
+    fontsize: 10pt
+    colorlinks: true
+    urlcolor: linkblue
+    include-in-header: resume-preamble.tex
+---
+
+\begin{center}
+{\Large \textbf{WONG WEI MING}}
+
+m230060@e.ntu.edu.sg | +65 88252349 | \href{https://www.linkedin.com/in/wongweiming}{LinkedIn} | \href{https://github.com/Alvin0523}{GitHub}
+\end{center}
+
+## EDUCATION
+
+**Nanyang Technological University, Singapore** \hfill Aug 2023 - Present
+
+Bachelor of Engineering (Honours), Computer Engineering & Data Analytics (Minor in Entrepreneurship)
+
+**Hong Kong University of Science and Technology, Hong Kong** \hfill Jan 2026 - Present
+
+Semester Exchange — B.E. Computer Engineering
+
+- Coursework: Machine Learning, Deep Learning in Computer Vision, Intelligent Robot & Embodied AI, Embedded AI Systems, Intro to Aerial Robotics
+
+## ACHIEVEMENTS
+
+- **NTU President Research Scholar** (URECA) — Undegraduate Research
+- **Semifinalist** (Top 10) & **Best New All-Rounders** — Robonation Robosub 2025 (International Level)
+- **Champion** — Singapore AUV Challenge 2025 (International Level)
+- **Finalist** — HacX @ HTX 2025
+- **Finalist** — NTU Escendo @ Garage EEE 2025 (School Level)
+- **Rank 9** — Ocean Exploration Video Challenge, MATEROV 2024 (International Level)
+
+## SKILLS
+
+- **Programming Languages:** Python, C, C++, Java
+- **Robotics & Autonomous Systems:** ROS1/ROS2, Nav2, Isaac ROS, NVBlox, ArduPilot, Behavior Tree, SLAM, PID Control
+- **AI & Computer Vision:** PyTorch, YOLO, OpenCV, Roboflow, TensorRT, ONNX
+- **Simulation:** Unity, Isaac Sim, Gazebo
+- **Tools:** Git, Docker, Linux/Ubuntu, WSL
+- **Hardware:** NVIDIA Jetson, Raspberry Pi, Pixhawk, STM32, ESP32, Intel RealSense, Soldering, Electronic Assembly, System Integration
+
+## EXPERIENCE
+
+**Mecatron (AUV Team in NTU)** \hfill Aug 2024 - Present
+
+*Perception Team Lead*
+
+- Led a 10-member perception software team in a 60-member club for competitions using ROS2 and computer vision.
+- Developed software stack with Behavior Tree for autonomous task sequencing in Robosub and SAUVC; performed SITL testing in Unity.
+- Performed electronic assembly and system integration for the AUV hardware stack.
+- Conducted 5+ robotics workshops (computer vision, ROS, robotic arm, eduboat) for 30-40 NTU students per session.
+
+**SkyrisAI** \hfill Dec 2025 - Jan 2026
+
+*ROS Developer* *(Details limited due to NDA)*
+
+- Contributed to the development of a novel autonomous platform, focusing on high-level system architecture and modular design.
+- Designed the ROS 2 framework and simulation environments to enable seamless interaction between AI models and robotic hardware.
+- Researched SLAM pipelines and AI integration strategies to enhance the robot's environmental understanding.
+
+**Home Team Science & Technology (HTX)** \hfill May 2025 – Dec 2025
+
+*Artificial Intelligence & Robotics Engineer Intern*
+
+- Integrated Isaac ROS with Nav2 and Intel RealSense D435i on Jetson AGX Orin for autonomous visual navigation.
+- Implemented real-time 3D reconstruction and SLAM using NVBlox from Isaac ROS with Nav2 on AGX Orin.
+- Integrated ROSA (ROS Agent) to enable LLM-driven sequential planning and ROS tool calling for robot control.
+- Developed a unified core stack based on Jetson and Pixhawk (ArduPilot), tested on 2 UGV platforms and designed for cross-platform deployment on AUV, UAV, and UGV systems.
+
+**Machine Learning and Data Analytics Club (MLDA)** \hfill Oct 2024 – May 2025
+
+*Robotics Software Developer*
+
+- Developed ROS1 Noetic-based control for DJI Tello Edu Drone in a 4-member team.
+- Implemented human detection using YOLOv8, achieving ~80% detection accuracy.
+
+## PROJECTS & RESEARCH
+
+**Undergraduate Research Programme (URECA), CCDS, NTU** \hfill Aug 2024 – May 2025
+
+*Undergraduate Research*
+
+- Deployed and benchmarked VILA 1.5-3B Vision-Language Model on Jetson Orin NX (16GB) for real-time underwater situational awareness on AUVs.
+- Integrated VLM inference with the ROS system to achieve environmental understanding and action planning for autonomous underwater navigation.
+- Applied 4-bit quantization via NVIDIA Jetson Container, achieving ~3.1s inference latency at 25W power mode for edge deployment.
+
+**Ocean Exploration Video Challenge (Rank 9), MATEROV 2024** \hfill July 2024 - Aug 2024
+
+*Software Team (Mecatron)*
+
+- Developed YOLOv10-based brittle star detection software for dark, murky underwater environments.
+- Prepared datasets by combining real-world images with synthetic data generated in Unity, improving detection accuracy by ~30%.
+- Achieved 80-90% accuracy using a moving slicer inference method, balancing speed and precision.
+- Leveraged Python, OpenCV, and Roboflow for data augmentation and object detection model training.
+
+## VOLUNTEERING
+
+**CCDS Tech for Good Hackathon 2026** — Sub-committee Member \hfill Oct 2025 - Feb 2026
+
+- Prepared LangChain workshop content and training materials for ~40 hackathon participants.
+
+**NTU CCDS Student Ambassador** \hfill Aug 2024
+
+- Conducted programming workshops for BIM Scholar Programme students.
+
+## CO-CURRICULAR ACTIVITIES
+
+NTU CCDS, COE & NTUpreneur – Student Ambassador \hfill Aug 2024 - Present
+
+NTU College of Computing and Data Science (CCDS) Orientation – Chief Programmer \hfill Aug 2024 - Present
+
+NTU Sports Club - Programmer \hfill Aug 2023 - Aug 2024
+
+NTU Taekwondo Varsity Team \hfill Aug 2023 - May 2024

@@ -1,0 +1,27 @@
+% Remove page numbers
+\pagestyle{empty}
+
+% Define link color
+\definecolor{linkblue}{HTML}{2B547E}
+
+% Redefine subsection (## in Quarto maps to \subsection)
+\usepackage{titlesec}
+\titleformat{\subsection}
+  {\large\bfseries}    % format: large bold
+  {}                    % label (none)
+  {0pt}                 % sep between label and title
+  {}                    % before-code
+  [\vspace{-6pt}\noindent\rule{\textwidth}{0.4pt}\vspace{-6pt}]  % after-code: rule right below
+
+\titlespacing*{\subsection}
+  {0pt}   % left indent
+  {6pt}   % space before heading
+  {4pt}   % space after heading (after the rule)
+
+% Tighten bullet list spacing
+\usepackage{enumitem}
+\setlist[itemize]{nosep, left=0pt .. 1.5em, topsep=2pt}
+
+% Reduce paragraph spacing
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
