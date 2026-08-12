@@ -6,6 +6,13 @@ version = "0.1.0"
 
 [tasks]
 
+[activation.env]
+FONTCONFIG_FILE = "$CONDA_PREFIX/etc/fonts/fonts.conf"
+FONTCONFIG_PATH = "$CONDA_PREFIX/etc/fonts"
+
 [dependencies]
 zensical = ">=0.0.20,<0.0.21"
+quarto = ">=1.9.38,<2"
+tectonic = "*"
+mscorefonts = ">=0.0.1,<0.0.2"
 

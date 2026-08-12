@@ -1,0 +1,207 @@
+---
+format:
+  pdf:
+    pdf-engine: tectonic
+    documentclass: article
+    mainfont: "Times New Roman"
+    sansfont: "Times New Roman"
+    monofont: "Times New Roman"
+    geometry: "margin=0.5in"
+    fontsize: 10pt
+    colorlinks: true
+    urlcolor: linkblue
+    header-includes: |
+      \pagestyle{empty}
+      \definecolor{linkblue}{HTML}{2B547E}
+      \usepackage{titlesec}
+      \titleformat{\subsection}{\large\bfseries}{}{0pt}{}[\vspace{-6pt}\noindent\rule{\textwidth}{0.4pt}\vspace{-6pt}]
+      \titlespacing*{\subsection}{0pt}{6pt}{4pt}
+      \usepackage{enumitem}
+      \setlist[itemize]{nosep, left=0pt .. 1.5em, topsep=2pt}
+      \setlength{\parskip}{0pt}
+      \setlength{\parindent}{0pt}
+      \usepackage{needspace}
+---
+
+\begin{center}
+{\textbf{WONG WEI MING}}
+
+m230060@e.ntu.edu.sg | +65 88252349 | \href{https://www.linkedin.com/in/wongweiming}{LinkedIn} | \href{https://github.com/Alvin0523}{GitHub} | Singaporean
+\end{center}
+
+## EDUCATION
+
+**Nanyang Technological University (NTU), Singapore** \hfill \textbf{Aug 2023 – May 2027}
+
+- Bachelor of Engineering (Honours), Computer Engineering with Second Major in Data Analytics
+- Honours (Distinction); CGPA: 4.25/5.00 (Current)
+- Relevant Modules (Master List — select ~6 for tailored applications): Data Structures & Algorithms, Algorithm Design & Analysis, Data Science & AI, Operating Systems, Software Engineering, Microprocessor System Design, Linear Algebra, Sensors & Digital Control
+
+**Hong Kong University of Science and Technology (HKUST), Hong Kong** \hfill \textbf{Jan 2026 – May 2026}
+
+Semester Exchange
+
+- UG Coursework: Machine Learning, Intelligent Robot & Embodied AI, Deep Learning in Computer Vision, Embedded AI Systems
+- PG Coursework: Deep 2D & 3D Visual Scene Understanding, Intro to Aerial Robotics
+
+## ACHIEVEMENTS
+
+- **NTU President Research Scholar** (URECA) — Undergraduate Research
+- **3rd Place** — Robonation RoboSub 2026 (International Level)
+- **Champion** — Singapore AUV Challenge 2025 (International Level)
+- **Semifinalist** (Top 10) & **Best New All-Rounders** — Robonation RoboSub 2025 (International Level)
+- **Finalist** — HacX @ HTX 2025
+- **Finalist** — NTU Escendo @ Garage EEE 2025 (School Level)
+- **Rank 9** — Ocean Exploration Video Challenge, MATEROV 2024 (International Level)
+
+## SKILLS
+
+- **Programming Languages:** Python, C, C++, Java
+- **Robotics & Autonomy:** ROS 1 / ROS 2 (Isaac ROS), Nav2, NVBlox, MoveIt 2, ArduPilot, PX4, Behavior Trees, SLAM, Sensor Fusion (EKF/UKF), PID Control, rmw_zenoh
+- **AI & Computer Vision:** PyTorch, LeRobot ($\pi_{0.5}$), Hugging Face, YOLO, OpenCV, Roboflow, TensorRT, ONNX
+- **Simulation & Visualization:** Isaac Sim, Gazebo, MuJoCo, Foxglove, Rerun, Trackio
+- **Tools & Environments:** Git, Docker, Linux/Ubuntu, WSL, Pixi (Conda/PyPI Package Manager)
+- **Hardware:** NVIDIA Jetson, Raspberry Pi, Holybro Pixhawk, STM32, ESP32, Intel RealSense
+- **Transferable:** Technical Leadership, Systems Thinking, Project Management, Cross-Functional Collaboration
+
+## EXPERIENCE
+
+**Mecatron (NTU Maritime Robotics Team)** \hfill \textbf{Aug 2024 – Present}
+
+*Advisor | Former President & Perception Lead*
+
+- **Club & Technical Leadership:** Directed a 60-member robotics club as President while managing a 10-member perception engineering team; currently serving as Advisor guiding technical governance, system architecture design, and internal administration.
+- **System Architecture & Autonomous Planning:** Architected a modular ROS 2 software stack utilizing **BehaviorTree.CPP (C++)** for state machine task sequencing and **Software-in-the-Loop (SITL) simulation**, cutting physical pool debugging time by ~40%.
+- **3D Computer Vision & Perception Pipeline:** Engineered an underwater perception stack combining **YOLO object detection** and **Depth Anything v3** for real-time 3D target localization and visual navigation; conducted stereo vision experiments to enhance spatial perception in low-visibility environments.
+- **Curriculum & Workshop Mentorship:** Designed and delivered technical training covering Computer Vision (CNNs, YOLO model deployment) and ROS 2 probation workshops, training 150+ NTU students and onboarding 10+ core perception engineers.
+- **Competition Track Record:** Software and perception contributions directly powered the AUV to achieve **Champion at SAUVC 2025**, **Top 10 Semifinalist & Best New All-Rounders at RoboSub 2025**, and **3rd Place at RoboSub 2026 (International)**.
+
+**Cheng Kar-Shun Robotics Institute (CKSRI), HKUST** \hfill \textbf{Mar 2026 – May 2026}
+
+*Undergraduate Research Assistant* | *Supervised by Prof. Ling Shi (Director, CKSRI)*
+
+- **Mobile Manipulator System Integration:** Executed full-stack hardware-software bring-up for an **AgileX Scout Mini 4WD UGV** mounted with an **AgileX Piper 6-DOF arm**, configuring `ugv_sdk` C++ CAN bus communication and `scout_ros2` node lifecycles.
+- **IMU-Free Laser Odometry & SLAM Navigation:** Integrated **Richbeam 2D LiDAR** (`Lakibeam_ROS2_Driver`) with **`rf2o_laser_odometry`** to compute real-time range-flow 2D base odometry on an IMU-less robot; combined with **Nav2** and **reflective marker intensity tracking** for sub-centimeter base positioning.
+- **MoveIt 2 Trajectory Planning & Public Showcase:** Engineered a **MoveIt 2** motion planning pipeline on the Piper arm for interactive chess playing, deploying the system live at the **2nd HKUST AI Film Festival** achieving **<1mm positioning error** across **>8 hours of continuous live operation**.
+
+**SkyrisAI** \hfill \textbf{Dec 2025 – Jan 2026}
+
+*ROS Architecture Engineer*
+
+- **ROS 2 System Architecture & Aerostack Integration:** Architected a modular ROS 2 software stack for an autonomous flying companion robot, experimenting with the **Aerostack2** framework to unify low-level flight control with high-level mission orchestration.
+- **Visual-Inertial SLAM & VIO Evaluation:** Benchmarked and evaluated Visual-Inertial Odometry (VIO) and SLAM pipelines (including **VINS-Fusion**) in Gazebo SITL simulation to optimize 3D localization accuracy under dynamic flight profiles.
+- **Behavior Tree & Autonomous Owner-Following:** Programmed custom **Behavior Tree** action nodes and state machine logic to enable real-time owner-following behavior and multi-layered safety fail-safes for aerial companion interaction.
+
+\needspace{7\baselineskip}
+**Home Team Science & Technology (HTX)** \hfill \textbf{May 2025 – Dec 2025}
+
+*Artificial Intelligence & Robotics Engineer Intern*
+
+- **Jetson–Pixhawk "Common Core" System Architecture:** Engineered a modular, multi-domain autonomy stack pairing NVIDIA Jetson (high-level AI) with Pixhawk 6C Mini (ArduPilot Rover via FastDDS / micro-ROS bridge), creating a reusable hardware-software foundation across UGV, UAV, and AUV platforms.
+- **NVIDIA Isaac ROS NVBlox & Nav2 Integration:** Deployed CUDA-accelerated Isaac ROS **NVBlox** (3D mapping at 4.9 FPS, 5cm voxel size, 63% GPU load) on Jetson Orin with Intel RealSense D435i, streaming real-time 3D costmaps into **Nav2** for vision-based obstacle avoidance.
+- **System Bottleneck Profiling & Telemetry:** Profiled real-time DDS queue saturation, serialization latency, and CUDA memory contention using **Foxglove Studio** and `jetson-stats`, establishing hardware requirements for AGX Orin migration.
+- **Agentic AI Integration & Task Planning:** Integrated NASA JPL **ROSA (ROS Agent)** for natural-language cognitive task planning and dynamic ROS tool execution with <2s command dispatch latency.
+
+**National Service (NS), Singapore Armed Forces** \hfill \textbf{Jul 2021 – Present}
+
+*Infantry Officer / Lieutenant (LTA) — HQ TRADOC*
+
+- Currently serving in HQ TRADOC (Headquarters Training & Doctrine Command) for NSman reservist duties, contributing to training transformation, doctrine development, and operational readiness.
+- Previously led and commanded an Infantry platoon during full-time NS, managing tactical field operations, personnel safety, and strategic logistics in high-pressure environments.
+
+## PROJECTS & RESEARCH
+
+**Scene Graph-Grounded Semantic World Model Planning for Mobile Manipulation** \hfill \textbf{Aug 2026 – Present}
+
+*NTU Final Year Project (FYP)* | *Supervised by Prof. Yoonchang Sung (NTU) & Dr. Dikai Liu (NVIDIA)*
+
+- **System Architecture & Research Focus:** Conducting literature review and architecture formulation on Graph World Models, extending 3D functional scene graphs to incorporate closed-loop physical feasibility verification for mobile manipulation.
+- **Technical Methodology:** Investigating Vision-Language Models (VLMs) to evaluate base-stance positioning offsets ($\Delta x, \Delta y$) and kinematic reachability constraints prior to motor execution to prevent action failure.
+
+**VLASH-Piper: Real-Time Async VLA Deployment on Edge** | \href{https://github.com/Alvin0523/vlash-piper}{GitHub} \hfill \textbf{Feb 2026 – May 2026}
+
+*HKUST COMP4901D (Embedded AI Systems)* | *Best Project Runner-Up Award*
+
+- Fine-tuned $\pi_{0.5}$ Vision-Language-Action (VLA) policy and integrated Hugging Face LeRobot (v0.4.1) for AgileX PIPER 6-DOF arm control over CAN bus.
+- Deployed on NVIDIA Jetson AGX Orin using multi-threaded async inference (VLASH framework) to decouple camera encoding from model execution, achieving a **30Hz real-time control loop** (<35ms latency) for zero-shot tabletop manipulation.
+
+**Underwater DA3: LoRA Fine-Tuning for AUV Depth Estimation** | \href{https://github.com/Alvin0523/Depth-Anything-3-Underwater-Refinement}{GitHub} \hfill \textbf{Feb 2026 – May 2026}
+
+*HKUST COMP4471 (Deep Learning in Computer Vision)*
+
+- Adapted Depth Anything 3 (DA3) Mono Metric Large model for underwater environments by injecting rank-8 LoRA into DINOv2-L ViT backbone to overcome light attenuation and backscatter.
+- Trained on NVIDIA A100 GPUs using SILog + Sobel gradient loss, reducing **AbsRel error by 59%** and boosting $\delta < 1.25$ accuracy from **0.94% to 56.8%** on MIMIR-UW SeaFloor benchmark.
+- Fused per-pixel metric depth with YOLOv11-seg instance masks and Kalman filter target tracking within a ROS 2 Jazzy AUV 3D localization stack.
+
+**Scaling LLaVA-3D for Large-Scale 3D Scene Understanding** | \href{https://github.com/JunzhangLiu/LLaVA-3D}{GitHub} \hfill \textbf{Feb 2026 – May 2026}
+
+*HKUST COMP5422 (3D Visual Scene Understanding)* | *Supervised by Prof. Dan Xu*
+
+- Extended LLaVA-3D with plug-in compression strategies (attention-score pruning, spatial K-Means clustering) to improve 3D Large Multimodal Model scalability without retraining base model.
+- Spatial K-Means clustering ($K=512$) reduced token count from **~3,096 to 512** (~6x compression) while boosting ScanQA validation EM@1 accuracy from **46.2% to 48.8%**.
+
+**UAV Trajectory Tracking & Visual-Inertial Odometry Evaluation** | \href{https://github.com/zhangone-smile/UAV-Trajectory-Tracking-VIO-Evaluation}{GitHub} \hfill \textbf{Feb 2026 – May 2026}
+
+*HKUST ELEC5660 (Introduction to Aerial Robotics)*
+
+- Built ROS 1 Noetic flight-test and evaluation stack for quadrotor UAVs, evaluating motion-capture EKF trajectory tracking across 5 3D flight profiles (circle, cosine, donut, figure-eight).
+- Automated `evo` evaluation pipeline to benchmark VINS-Fusion and visual-EKF odometry drift against reference paths, computing Absolute Position Error (APE) and Relative Pose Error (RPE).
+
+**Visual-Language Behavior Planning for Autonomous Underwater Vehicles** \hfill \textbf{Aug 2024 – May 2025}
+
+*NTU URECA Research Project (CCDS24070)* | *Supervised by Assoc Prof Nicholas Vun* | *Awarded NTU President Research Scholar*
+
+- Deployed 4-bit AWQ quantized **VILA Vision-Language Model (VLM)** on **NVIDIA Jetson Orin NX** (16GB, Jetson AI Lab Docker container) operating under a 25W power budget for swimming pool AUV operations (~3.1s latency).
+- Integrated interactive Visual Question Answering (VQA) with **NanoDB Vector Database** to query behavior components and assemble XML **Behavior Trees (BT)** executed via **BehaviorTree.CPP** in ROS 2.
+- Validated end-to-end pipeline in SITL simulation and physical swimming pool trials on real AUV for basic autonomous actions (seeing obstacles, turning to avoid obstacles, and basic movement).
+
+## LEADERSHIP EXPERIENCE & CO-CURRICULAR ACTIVITIES
+
+**NTU Student Ambassador (COE & CCDS)** \hfill \textbf{Aug 2024 – Present}
+
+- Represented College of Engineering (COE) and Mecatron robotics team at institutional outreach, open house events, and technical showcases.
+- Planned and conducted programming workshops for 20-30 BIM Scholar Programme students.
+- Served as Sub-committee Member for **CCDS Tech for Good Hackathon 2026**, preparing LangChain workshop content and training materials for ~40 participants.
+
+**NTU Sports Club** — Programmer \hfill \textbf{Aug 2023 – May 2024}
+
+- Planned, organized, and executed annual NTU Sports Orientation events for incoming undergraduate students.
+
+**NTU Varsity & Sports Clubs** \hfill \textbf{Aug 2023 – Present}
+
+- **NTU Taekwondo Varsity Team:** Team Member (Aug 2023 – May 2024).
+- **NTU Calisthenics Club:** Active Member (Aug 2023 – Present).
+
+\newpage
+
+## FYI — MASTER COPY NOTES & ATS GUIDELINES
+
+**PDF Export Naming Convention**
+
+- Recommended PDF File Name: **`resume_wongweiming(NTU).pdf`**
+
+**Applicant Tracking System (ATS) Optimization Checklist**
+
+- **Keyword Matching:** Ensure exact keywords from targeted Job Descriptions (e.g. ROS 2, Isaac ROS, MoveIt 2, PyTorch, C++, Embodied AI, SLAM) are explicitly present in SKILLS, EXPERIENCE, and PROJECTS sections.
+- **Section Headers:** Keep standard heading titles (`EDUCATION`, `EXPERIENCE`, `PROJECTS & RESEARCH`, `SKILLS`, `ACHIEVEMENTS`) for parser compatibility.
+- **Elaboration & Impact Links:** Every project and experience bullet should state the action verb, methodology/tools, and link to concrete results or top achievements listed above (e.g., SAUVC 2025 Champion, Robosub 2025 Top 10, HacX Finalist).
+
+**CAO Guidelines Extracted from Reference Slides**
+
+- **1. Quantifying Achievements (CAO Slide):**
+  - **Specific Contributions:** Stress quantifiable outcomes in productivity, efficiency, quality, and product performance.
+  - **Metrics Breakdown:** Incorporate numbers, percentages, dollar value, volume, grade, duration, and frequency.
+  - **Duration / Time Period Examples:** *"for a period of 5 months"*, *"for a duration of 8 weeks"*.
+  - **Frequency Examples:** Daily, weekly, bi-monthly, monthly, quarterly, half-yearly, annually.
+
+- **2. Project Work & FYP Structure Template (CAO Slide):**
+  - **Objective:** Describe the objective of the project/FYP in 1–2 sentences.
+  - **Action Taken:** List specific actions taken (e.g., *"Research and compile relevant information for this FYP"*, *"Analyse and evaluate the information gathered"*).
+  - **Testing & Prototyping:** Detail lab testing over defined periods (e.g., *"Conducted laboratory test over a period of 8 weeks and observed the engineering process"*) and prototype creation per engineering specifications.
+  - **Outcomes & Results:** State final outcome, grade, thesis/theory proved, or quantitative performance metric achieved.
+
+- **3. Hackathon Documentation Structure (CAO Slide):**
+  - **Format:** `[Hackathon Name]` | `[Date]`
+  - **Subtitle:** Concise tagline describing project goal (e.g., *"Simulated virtual clothing outfits with AI"*).
+  - **Technical Implementation:** Action bullet with tech stack integration (e.g., OpenAI, DALL-E, Stable Diffusion, Python-Telegram-Bot).
+  - **Team Leadership & Soft Skills:** Spearheading team directives, optimizing communication, workflow, and morale.
