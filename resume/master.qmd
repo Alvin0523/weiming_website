@@ -57,7 +57,7 @@ Semester Exchange
 ## SKILLS
 
 - **Programming Languages:** Python, C, C++, Java
-- **Robotics & Autonomy:** ROS 1 / ROS 2 (Isaac ROS), Nav2, NVBlox, MoveIt 2, ArduPilot, PX4, Behavior Trees, SLAM, Sensor Fusion (EKF/UKF), PID Control, rmw_zenoh
+- **Robotics & Autonomy:** ROS 2, Isaac ROS, Nav2, NVBlox, MoveIt 2, ArduPilot, PX4, Behavior Trees, SLAM, Sensor Fusion (EKF/UKF), PID Control, rmw_zenoh
 - **AI & Computer Vision:** PyTorch, LeRobot ($\pi_{0.5}$), Hugging Face, YOLO, OpenCV, Roboflow, TensorRT, ONNX
 - **Simulation & Visualization:** Isaac Sim, Gazebo, MuJoCo, Foxglove, Rerun, Trackio
 - **Tools & Environments:** Git, Docker, Linux/Ubuntu, WSL, Pixi (Conda/PyPI Package Manager)
