@@ -1,0 +1,144 @@
+---
+format:
+  pdf:
+    pdf-engine: tectonic
+    documentclass: article
+    mainfont: "Noto Serif CJK SC"
+    sansfont: "Noto Sans CJK SC"
+    monofont: "Liberation Mono"
+    geometry: "margin=0.5in"
+    fontsize: 10pt
+    colorlinks: true
+    urlcolor: linkblue
+    header-includes: |
+      \pagestyle{empty}
+      \definecolor{linkblue}{HTML}{2B547E}
+      \usepackage{titlesec}
+      \titleformat{\subsection}{\large\bfseries}{}{0pt}{}[\vspace{-6pt}\noindent\rule{\textwidth}{0.4pt}\vspace{-6pt}]
+      \titlespacing*{\subsection}{0pt}{6pt}{4pt}
+      \usepackage{enumitem}
+      \setlist[itemize]{nosep, left=0pt .. 1.5em, topsep=2pt}
+      \setlength{\parskip}{0pt}
+      \setlength{\parindent}{0pt}
+      \usepackage{needspace}
+      \XeTeXlinebreaklocale "zh"
+      \XeTeXlinebreakskip = 0pt plus 1pt
+---
+
+\begin{center}
+{\textbf{\Large 黄韦茗}}
+
+m230060@e.ntu.edu.sg | +65 88252349 | \href{https://www.linkedin.com/in/wongweiming}{LinkedIn} | \href{https://github.com/Alvin0523}{GitHub} | 中文 (母语)
+\end{center}
+
+## 教育背景
+
+**南洋理工大学 (NTU), 新加坡** \hfill \textbf{2023年8月 – 2027年5月}
+
+- 计算机工程荣誉学士，副修数据分析
+- 荣誉学位 (Distinction); 当前CGPA: 4.25/5.00
+- **核心相关课程:** 数据结构与算法, 数字控制与传感器, 线性代数, 数据科学与人工智能
+
+**香港科技大学 (HKUST), 香港** \hfill \textbf{2026年1月 – 2026年5月}
+
+学期交换 — *机器人、计算机视觉与具身智能方向*
+
+- 本科课程: 智能机器人与具身智能, 嵌入式人工智能系统, 计算机视觉深度学习, 机器学习
+- 研究生课程: 深度2D与3D视觉场景理解, 航空机器人学导论
+
+## 荣誉奖项
+
+- **NTU President Research Scholar** (URECA) — 本科生研究学者
+- **季军** — Robonation RoboSub 2026 国际水下机器人大赛 (International Level)
+- **冠军** — 新加坡 AUV 挑战赛 SAUVC 2025 (International Level)
+- **半决赛十强** \& **最佳新秀奖** — Robonation RoboSub 2025 (International Level)
+- **入围决赛** — HacX @ HTX 2025
+- **入围决赛** — NTU Escendo @ Garage EEE 2025 (School Level)
+- **第9名** — Ocean Exploration Video Challenge, MATEROV 2024 (International Level)
+
+## 技能专长
+
+- **编程语言:** Python, C, C++, Java
+- **机器人与自主系统:** ROS 2, Isaac ROS, Nav2, NVBlox, MoveIt 2, ArduPilot, PX4, Behavior Trees, SLAM, 传感器融合 (EKF/UKF), PID 控制, rmw_zenoh
+- **人工智能与计算机视觉:** PyTorch, LeRobot ($\pi_{0.5}$), Hugging Face, YOLO, OpenCV, Roboflow
+- **仿真与可视化:** Isaac Sim, Gazebo, MuJoCo, Foxglove, Rerun, Trackio
+- **工具与开发环境:** Git, Docker, Linux/Ubuntu, WSL, Pixi (Conda/PyPI包管理器)
+- **硬件平台:** NVIDIA Jetson, 树莓派 (Raspberry Pi), Holybro Pixhawk, STM32, ESP32, Intel RealSense 深度相机
+- **通用能力:** 技术领导力, 系统思维, 项目管理, 跨领域协作
+
+## 工作与科研经历
+
+**Mecatron (NTU 水下机器人队)** \hfill \textbf{2024年8月 – 至今}
+
+*顾问 | 前队长兼感知组负责人*
+
+- **社团与技术领导:** 作为队长管理60人规模的机器人社团，并带领10人感知工程团队；现任顾问，指导技术治理、系统架构设计与内部行政。
+- **系统架构与自主规划:** 采用 **BehaviorTree.CPP (C++)** 架构模块化 ROS 2 软件栈，实现状态机任务序列化与 **SITL 在线仿真**，使水下实测调试时间缩短 ~40\%。
+- **3D计算机视觉与感知流水线:** 开发结合 **YOLO 目标检测** 与 **Depth Anything v3** 的水下感知栈，实现实时3D目标定位与视觉导航；开展双目立体视觉实验，提升低能见度环境下的空间感知。
+- **课程与工作坊导师:** 设计并交付涵盖计算机视觉（CNN、YOLO模型部署）与 ROS 2 考核工作坊的技术培训，培训150+名NTU学生，并迎新入职10+名核心感知工程师。
+- **竞赛战绩:** 软件与感知贡献直接助力水下机器人 (AUV) 斩获 **SAUVC 2025 冠军**、**RoboSub 2025 全球十强兼最佳新秀奖** 及 **RoboSub 2026 全球季军**。
+
+**香港科技大学郑家纯机器人研究所 (CKSRI, HKUST)** \hfill \textbf{2026年3月 – 2026年5月}
+
+*本科研究助理 (RA)* | *Supervised by Prof. Ling Shi (Director, CKSRI)*
+
+- **移动操控机器人系统集成:** 完成搭载 **AgileX Piper 6自由度机械臂** 的 **AgileX Scout Mini 4WD UGV** 移动操控全栈软硬件 Bring-up，配置 `ugv_sdk` C++ CAN 总线通信与 `scout_ros2` 节点生命周期。
+- **无IMU激光里程计与SLAM导航:** 集成 **Richbeam 2D LiDAR** (`Lakibeam_ROS2_Driver`) 与 **`rf2o_laser_odometry`**，在无 IMU 的机器人上实时计算基于距离流的 2D 基座里程计；结合 **Nav2** 与 **反光标记物强度跟踪**，实现亚厘米级基座定位。
+- **MoveIt 2 轨迹规划与公开展示:** 在 Piper 机械臂上开发用于下棋互动的 **MoveIt 2** 运动规划流水线，在 **第二届港科大AI电影节** 现场部署，实现 **<1mm 定位误差**，连续稳定运行 **>8小时**。
+
+**SkyrisAI** \hfill \textbf{2025年12月 – 2026年1月}
+
+*ROS 架构工程师*
+
+- **ROS 2 系统架构与 Aerostack 集成:** 为自主飞行伴侣机器人架构模块化 ROS 2 软件栈，探索 **Aerostack2** 框架以统一底层飞行控制与高层任务调度。
+- **视觉惯性 SLAM 与 VIO 评估:** 在 Gazebo SITL 仿真中对视觉惯性里程计 (VIO) 与 SLAM 流水线（包括 **VINS-Fusion**）进行基准测试与评估，优化动态飞行姿态下的3D定位精度。
+- **行为树与自主主人追踪:** 编写自定义 **Behavior Tree** 动作节点与状态机逻辑，实现实时主人追踪行为与多层安全保底机制。
+
+\needspace{7\baselineskip}
+**新加坡内政科技局 (HTX)** \hfill \textbf{2025年5月 – 2025年12月}
+
+*人工智能与机器人工程实习生*
+
+- **Jetson–Pixhawk“通用核心”系统架构:** 构建结合 NVIDIA Jetson（高层AI）与 Pixhawk 6C Mini（通过 FastDDS / micro-ROS 桥接 ArduPilot 陆行车）的模块化多领域自主栈，在 UGV、UAV 及 AUV 平台上打造可复用的软硬件基础。
+- **NVIDIA Isaac ROS NVBlox 与 Nav2 集成:** 在 Jetson Orin 上配合 Intel RealSense D435i 部署 CUDA 加速的 Isaac ROS **NVBlox**（3D建图达 4.9 FPS，5cm 体素大小，63\% GPU 负载），将实时3D代价图实时流式传输至 **Nav2** 用于基于视觉的避障。
+- **系统瓶颈剖析与遥测:** 使用 **Foxglove Studio** 与 `jetson-stats` 剖析实时 DDS 队列饱和度、序列化延迟与 CUDA 内存争用，为 AGX Orin 迁移确立硬件需求。
+- **智能体AI集成与任务规划:** 集成 NASA JPL **ROSA (ROS Agent)**，实现自然语言认知任务规划与动态 ROS 工具执行，指令调度延迟 <2秒。
+
+## 项目与研究经历
+
+**基于场景图的移动操控语义世界模型规划** \hfill \textbf{2026年8月 – 至今}
+
+*NTU 毕业设计 (FYP)* | *Supervised by Prof. Yoonchang Sung (NTU) \& Dr. Dikai Liu (NVIDIA)*
+
+- **系统架构与研究重点:** 针对图世界模型 (Graph World Models) 进行文献综述与架构设计，扩展 3D 功能场景图，引入用于移动操控任务的闭环物理可行性验证。
+- **技术方法:** 探索视觉语言模型 (VLMs)，在电机执行前评估基座站姿定位偏移量 ($\Delta x, \Delta y$) 及运动学可达性约束，防止动作失效。
+
+**VLASH-Piper: 边缘端实时异步 VLA 部署** | \href{https://github.com/Alvin0523/vlash-piper}{GitHub} \hfill \textbf{2026年2月 – 2026年5月}
+
+*港科大 COMP4901D (嵌入式AI系统)* | *最佳项目亚军奖 (Best Project Runner-Up)*
+
+- 微调 $\pi_{0.5}$ 视觉-语言-动作 (VLA) 策略，并集成 Hugging Face LeRobot (v0.4.1) 通过 CAN 总线控制 AgileX PIPER 6自由度机械臂。
+- 部署于 NVIDIA Jetson AGX Orin，采用多线程异步推理（VLASH 框架）解耦图像编码与模型执行，实现 **30Hz 实时控制循环**（<35ms 延迟），支持 Zero-shot 桌面操控。
+
+**Underwater DA3: 用于 AUV 深度估计的 LoRA 微调** | \href{https://github.com/Alvin0523/Depth-Anything-3-Underwater-Refinement}{GitHub} \hfill \textbf{2026年2月 – 2026年5月}
+
+*港科大 COMP4471 (计算机视觉深度学习)*
+
+- 针对水下环境适配 Depth Anything 3 (DA3) Mono Metric Large 模型，在 DINOv2-L ViT 主干中注入 rank-8 LoRA 以克服光线衰减与背向散射。
+- 在 NVIDIA A100 GPU 上使用 SILog + Sobel 梯度损失训练，在 MIMIR-UW 海床基准测试中使 **AbsRel 误差降低 59\%**，并将 $\delta < 1.25$ 精度从 **0.94\% 提升至 56.8\%**。
+- 将逐像素米级深度与 YOLOv11-seg 实例分割掩码及卡尔曼滤波目标跟踪融合于 ROS 2 Jazzy AUV 3D 定位栈中。
+
+**面向大规模 3D 场景理解扩展 LLaVA-3D** | \href{https://github.com/JunzhangLiu/LLaVA-3D}{GitHub} \hfill \textbf{2026年2月 – 2026年5月}
+
+*港科大 COMP5422 (3D视觉场景理解)* | *Supervised by Prof. Dan Xu*
+
+- 为 LLaVA-3D 扩展即插即用的压缩策略（注意力分段剪枝、空间 K-Means 聚类），在无需重训基座模型的前提下提升 3D 大多模态模型的扩展性。
+- 空间 K-Means 聚类 ($K=512$) 将 Token 数量从 **~3,096 压缩至 512**（~6倍压缩率），同时将 ScanQA 验证集 EM@1 准确率从 **46.2\% 提升至 48.8\%**。
+
+**水下自主航行器的视觉语言行为规划** \hfill \textbf{2024年8月 – 2025年5月}
+
+*NTU URECA 研究项目 (CCDS24070)* | *Supervised by Assoc Prof Nicholas Vun* | *Awarded NTU President Research Scholar*
+
+- 在 25W 功耗预算下将 4-bit AWQ 量化的 **VILA 视觉语言模型 (VLM)** 部署于 **NVIDIA Jetson Orin NX**（16GB，Jetson AI Lab Docker 容器），用于泳池 AUV 作业（~3.1s 延迟）。
+- 将交互式视觉问答 (VQA) 与 **NanoDB 向量数据库** 集成，查询行为组件并组装 XML **行为树 (BT)**，通过 ROS 2 中的 **BehaviorTree.CPP** 执行。
+- 在 SITL 仿真与实物泳池试验中验证端到端流水线，完成基础自主动作（识别障碍物、转向避障及基础移动）。

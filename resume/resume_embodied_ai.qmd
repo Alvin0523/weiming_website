@@ -3,9 +3,9 @@ format:
   pdf:
     pdf-engine: tectonic
     documentclass: article
-    mainfont: "Times New Roman"
-    sansfont: "Times New Roman"
-    monofont: "Times New Roman"
+    mainfont: "Liberation Serif"
+    sansfont: "Liberation Serif"
+    monofont: "Liberation Mono"
     geometry: "margin=0.5in"
     fontsize: 10pt
     colorlinks: true
@@ -35,7 +35,7 @@ m230060@e.ntu.edu.sg | +65 88252349 | \href{https://www.linkedin.com/in/wongweim
 
 - Bachelor of Engineering (Honours), Computer Engineering with Second Major in Data Analytics
 - Honours (Distinction); CGPA: 4.25/5.00 (Current)
-- Relevant Modules (Master List — select ~6 for tailored applications): Data Structures & Algorithms, Algorithm Design & Analysis, Data Science & AI, Operating Systems, Software Engineering, Microprocessor System Design, Linear Algebra, Sensors & Digital Control
+- Relevant Modules: Data Structures & Algorithms, Sensors & Digital Control, Linear Algebra, Data Science & AI
 
 **Hong Kong University of Science and Technology (HKUST), Hong Kong** \hfill \textbf{Jan 2026 – May 2026}
 
@@ -102,13 +102,6 @@ Semester Exchange
 - **System Bottleneck Profiling & Telemetry:** Profiled real-time DDS queue saturation, serialization latency, and CUDA memory contention using **Foxglove Studio** and `jetson-stats`, establishing hardware requirements for AGX Orin migration.
 - **Agentic AI Integration & Task Planning:** Integrated NASA JPL **ROSA (ROS Agent)** for natural-language cognitive task planning and dynamic ROS tool execution with <2s command dispatch latency.
 
-**National Service (NS), Singapore Armed Forces** \hfill \textbf{Jul 2021 – Present}
-
-*Infantry Officer / Lieutenant (LTA) — HQ TRADOC*
-
-- Currently serving in HQ TRADOC (Headquarters Training & Doctrine Command) for NSman reservist duties, contributing to training transformation, doctrine development, and operational readiness.
-- Previously led and commanded an Infantry platoon during full-time NS, managing tactical field operations, personnel safety, and strategic logistics in high-pressure environments.
-
 ## PROJECTS & RESEARCH
 
 **Scene Graph-Grounded Semantic World Model Planning for Mobile Manipulation** \hfill \textbf{Aug 2026 – Present}
@@ -140,13 +133,6 @@ Semester Exchange
 - Extended LLaVA-3D with plug-in compression strategies (attention-score pruning, spatial K-Means clustering) to improve 3D Large Multimodal Model scalability without retraining base model.
 - Spatial K-Means clustering ($K=512$) reduced token count from **~3,096 to 512** (~6x compression) while boosting ScanQA validation EM@1 accuracy from **46.2% to 48.8%**.
 
-**UAV Trajectory Tracking & Visual-Inertial Odometry Evaluation** | \href{https://github.com/zhangone-smile/UAV-Trajectory-Tracking-VIO-Evaluation}{GitHub} \hfill \textbf{Feb 2026 – May 2026}
-
-*HKUST ELEC5660 (Introduction to Aerial Robotics)*
-
-- Built ROS 1 Noetic flight-test and evaluation stack for quadrotor UAVs, evaluating motion-capture EKF trajectory tracking across 5 3D flight profiles (circle, cosine, donut, figure-eight).
-- Automated `evo` evaluation pipeline to benchmark VINS-Fusion and visual-EKF odometry drift against reference paths, computing Absolute Position Error (APE) and Relative Pose Error (RPE).
-
 **Visual-Language Behavior Planning for Autonomous Underwater Vehicles** \hfill \textbf{Aug 2024 – May 2025}
 
 *NTU URECA Research Project (CCDS24070)* | *Supervised by Assoc Prof Nicholas Vun* | *Awarded NTU President Research Scholar*
@@ -154,54 +140,3 @@ Semester Exchange
 - Deployed 4-bit AWQ quantized **VILA Vision-Language Model (VLM)** on **NVIDIA Jetson Orin NX** (16GB, Jetson AI Lab Docker container) operating under a 25W power budget for swimming pool AUV operations (~3.1s latency).
 - Integrated interactive Visual Question Answering (VQA) with **NanoDB Vector Database** to query behavior components and assemble XML **Behavior Trees (BT)** executed via **BehaviorTree.CPP** in ROS 2.
 - Validated end-to-end pipeline in SITL simulation and physical swimming pool trials on real AUV for basic autonomous actions (seeing obstacles, turning to avoid obstacles, and basic movement).
-
-## LEADERSHIP EXPERIENCE & CO-CURRICULAR ACTIVITIES
-
-**NTU Student Ambassador (COE & CCDS)** \hfill \textbf{Aug 2024 – Present}
-
-- Represented College of Engineering (COE) and Mecatron robotics team at institutional outreach, open house events, and technical showcases.
-- Planned and conducted programming workshops for 20-30 BIM Scholar Programme students.
-- Served as Sub-committee Member for **CCDS Tech for Good Hackathon 2026**, preparing LangChain workshop content and training materials for ~40 participants.
-
-**NTU Sports Club** — Programmer \hfill \textbf{Aug 2023 – May 2024}
-
-- Planned, organized, and executed annual NTU Sports Orientation events for incoming undergraduate students.
-
-**NTU Varsity & Sports Clubs** \hfill \textbf{Aug 2023 – Present}
-
-- **NTU Taekwondo Varsity Team:** Team Member (Aug 2023 – May 2024).
-- **NTU Calisthenics Club:** Active Member (Aug 2023 – Present).
-
-\newpage
-
-## FYI — MASTER COPY NOTES & ATS GUIDELINES
-
-**PDF Export Naming Convention**
-
-- Recommended PDF File Name: **`resume_wongweiming(NTU).pdf`**
-
-**Applicant Tracking System (ATS) Optimization Checklist**
-
-- **Keyword Matching:** Ensure exact keywords from targeted Job Descriptions (e.g. ROS 2, Isaac ROS, MoveIt 2, PyTorch, C++, Embodied AI, SLAM) are explicitly present in SKILLS, EXPERIENCE, and PROJECTS sections.
-- **Section Headers:** Keep standard heading titles (`EDUCATION`, `EXPERIENCE`, `PROJECTS & RESEARCH`, `SKILLS`, `ACHIEVEMENTS`) for parser compatibility.
-- **Elaboration & Impact Links:** Every project and experience bullet should state the action verb, methodology/tools, and link to concrete results or top achievements listed above (e.g., SAUVC 2025 Champion, Robosub 2025 Top 10, HacX Finalist).
-
-**CAO Guidelines Extracted from Reference Slides**
-
-- **1. Quantifying Achievements (CAO Slide):**
-  - **Specific Contributions:** Stress quantifiable outcomes in productivity, efficiency, quality, and product performance.
-  - **Metrics Breakdown:** Incorporate numbers, percentages, dollar value, volume, grade, duration, and frequency.
-  - **Duration / Time Period Examples:** *"for a period of 5 months"*, *"for a duration of 8 weeks"*.
-  - **Frequency Examples:** Daily, weekly, bi-monthly, monthly, quarterly, half-yearly, annually.
-
-- **2. Project Work & FYP Structure Template (CAO Slide):**
-  - **Objective:** Describe the objective of the project/FYP in 1–2 sentences.
-  - **Action Taken:** List specific actions taken (e.g., *"Research and compile relevant information for this FYP"*, *"Analyse and evaluate the information gathered"*).
-  - **Testing & Prototyping:** Detail lab testing over defined periods (e.g., *"Conducted laboratory test over a period of 8 weeks and observed the engineering process"*) and prototype creation per engineering specifications.
-  - **Outcomes & Results:** State final outcome, grade, thesis/theory proved, or quantitative performance metric achieved.
-
-- **3. Hackathon Documentation Structure (CAO Slide):**
-  - **Format:** `[Hackathon Name]` | `[Date]`
-  - **Subtitle:** Concise tagline describing project goal (e.g., *"Simulated virtual clothing outfits with AI"*).
-  - **Technical Implementation:** Action bullet with tech stack integration (e.g., OpenAI, DALL-E, Stable Diffusion, Python-Telegram-Bot).
-  - **Team Leadership & Soft Skills:** Spearheading team directives, optimizing communication, workflow, and morale.
