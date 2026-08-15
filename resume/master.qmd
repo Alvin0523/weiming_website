@@ -26,7 +26,7 @@ format:
 \begin{center}
 {\textbf{WONG WEI MING}}
 
-m230060@e.ntu.edu.sg | +65 88252349 | \href{https://www.linkedin.com/in/wongweiming}{LinkedIn} | \href{https://github.com/Alvin0523}{GitHub} | Chinese (Mother Tongue)
+m230060@e.ntu.edu.sg | +65 88252349 | \href{https://www.linkedin.com/in/wongweiming}{LinkedIn} | \href{https://github.com/Alvin0523}{GitHub} | Singaporean
 \end{center}
 
 ## EDUCATION

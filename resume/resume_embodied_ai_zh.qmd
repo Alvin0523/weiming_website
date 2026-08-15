@@ -1,6 +1,7 @@
 ---
 format:
   pdf:
+    output-file: "简历_黄韦茗.pdf"
     pdf-engine: tectonic
     documentclass: article
     mainfont: "Noto Serif CJK SC"
